@@ -1,0 +1,67 @@
+{
+  "basics": {
+    "name": "Gwangho Kim",
+    "email": "25ghkim@gmail.com",
+    "phone": "",
+    "website": "https://Gwangho99.github.io",
+    "summary": "MS student in Computer Science. Research on generative models and machine learning.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "South Korea",
+      "countryCode": "KR",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "Gwangho99",
+        "url": "https://github.com/Gwangho99"
+      }
+    ]
+  },
+  "work": [],
+  "education": [
+    {
+      "institution": "MS Program",
+      "area": "Computer Science",
+      "studyType": "M.S.",
+      "startDate": "2025-03",
+      "endDate": "",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "Hanyang University",
+      "area": "Computer Science & Mathematics",
+      "studyType": "B.S.",
+      "startDate": "2018",
+      "endDate": "2024-09",
+      "gpa": null,
+      "courses": []
+    }
+  ],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "publications": [
+    {
+      "name": "Localizing Memorized Regions in Diffusion Models via Coordinate-Wise Curvature Differences",
+      "publisher": "International Conference on Machine Learning (ICML 2026)",
+      "releaseDate": "2026",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Parallel Tempering Initial Sampling in Inference-Time Reward Alignment",
+      "publisher": "ICML 2026 Workshop on Structured Probabilistic Inference & Generative Modeling (SPIGM)",
+      "releaseDate": "2026",
+      "website": "",
+      "summary": ""
+    }
+  ],
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
+}
