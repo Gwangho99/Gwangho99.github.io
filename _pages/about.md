@@ -18,13 +18,13 @@ I am a second-year MS student in Computer Science at Hanyang University, advised
 
 ## Publications
 
-- [[**Parallel Tempering Initial Sampling in Inference-Time Reward Alignment**  
-  Myeongjun Oh, Gwangho Kim, Sungyoon Lee]](https://arxiv.org/abs/2605.30991)
+- [Parallel Tempering Initial Sampling in Inference-Time Reward Alignment](https://arxiv.org/abs/2605.30991)  
+  Myeongjun Oh, **Gwangho Kim**, Sungyoon Lee
   *ICML 2026 Workshop on Structured Probabilistic Inference & Generative Modeling (SPIGM)*  
   
 
-- [[**Localizing Memorized Regions in Diffusion Models via Coordinate-Wise Curvature Differences**]](https://arxiv.org/abs/2605.26756)  
-  Gwangho Kim, Sungyoon Lee  
+- [Localizing Memorized Regions in Diffusion Models via Coordinate-Wise Curvature Differences](https://arxiv.org/abs/2605.26756)  
+  **Gwangho Kim**, Sungyoon Lee  
   *International Conference on Machine Learning (ICML 2026)*  
 
 
