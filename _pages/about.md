@@ -9,6 +9,8 @@ redirect_from:
 
 I am a second-year MS student in Computer Science at Hanyang University, advised by [Sungyoon Lee](https://sites.google.com/view/sungyoon-lee/home). My research interests include generative models, diffusion models, and reward alignment. I am actively looking for PhD positions.
 
+**Email:** [25ghkim@gmail.com](mailto:25ghkim@gmail.com) / [ggh1999@hanyang.ac.kr](mailto:ggh1999@hanyang.ac.kr)
+
 ## Education
 
 - **M.S.** in Computer Science, March 2025 – Present
