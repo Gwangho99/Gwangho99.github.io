@@ -3,7 +3,7 @@ title: "Localizing Memorized Regions in Diffusion Models via Coordinate-Wise Cur
 collection: publications
 category: conferences
 permalink: /publication/2026-07-01-localizing-memorized-regions-diffusion-models
-excerpt: 'We propose a method to localize memorized regions in diffusion models by analyzing coordinate-wise curvature differences.'
+excerpt: ''
 date: 2026-07-01
 venue: 'International Conference on Machine Learning (ICML 2026)'
 paperurl: 'https://arxiv.org/abs/2605.26756'
