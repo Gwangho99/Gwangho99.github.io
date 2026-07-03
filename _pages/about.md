@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year MS student in Computer Science at Hanyang University, advised by [Sungyoon Lee](https://sites.google.com/view/sungyoon-lee/home). My research interests include generative models, diffusion models, and reward alignment. 
+I am a second-year MS student in Computer Science at Hanyang University, advised by [Sungyoon Lee](https://sites.google.com/view/sungyoon-lee/home). My research interests center on the generalization of generative models, with a particular focus on diffusion models. I am broadly curious about how diffusion models manage to generalize beyond their finite training data — and what this implies for phenomena such as memorization. I am also interested in various aspects of diffusion models, including reward alignment, guidance, distillation, and data attribution.
 
 I am actively looking for PhD positions for both 2027 Spring and Fall.
 
