@@ -18,16 +18,11 @@ I am actively looking for PhD positions for both 2027 Spring and Fall.
 - **M.S.** in Computer Science, Hanyang University, March 2025 – Present
 - **B.S.** in Computer Science & Mathematics, Hanyang University, 2018 – September 2024
 
-## Publications
+## Selected publication
 
 - [Memorization and Malign Generalization in Conditional Diffusion Models with Random Features](https://arxiv.org/abs/2610.11288)  
   **Gwangho Kim**, Sungyoon Lee  
   *Under review*  
-
-- [Parallel Tempering Initial Sampling in Inference-Time Reward Alignment](https://arxiv.org/abs/2605.30991)  
-  Myeongjun Oh, **Gwangho Kim**, Sungyoon Lee
-  *ICML 2026 Workshop on Structured Probabilistic Inference & Generative Modeling (SPIGM)*  
-  
 
 - [Localizing Memorized Regions in Diffusion Models via Coordinate-Wise Curvature Differences](https://arxiv.org/abs/2605.26756)  
   **Gwangho Kim**, Sungyoon Lee  
