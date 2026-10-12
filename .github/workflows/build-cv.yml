@@ -30,6 +30,12 @@ jobs:
           root_file: cv.tex
           latexmk_use_xelatex: true
 
+      - name: Report LaTeX errors
+        if: failure()
+        run: |
+          grep -n -A3 -E '^!|not found|cannot be found' _cv/cv.log | head -40 |
+            while IFS= read -r line; do echo "::error::$line"; done || true
+
       - name: Copy PDF to files/cv.pdf
         run: cp _cv/cv.pdf files/cv.pdf
 
