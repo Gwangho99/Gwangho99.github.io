@@ -21,3 +21,13 @@ package-lock.json
 
 # Ignore files created by MacOS
 .DS_Store
+
+# LaTeX build artifacts from _cv/ (the published PDF lives in files/cv.pdf)
+_cv/*.aux
+_cv/*.log
+_cv/*.out
+_cv/*.fls
+_cv/*.fdb_latexmk
+_cv/*.xdv
+_cv/*.synctex.gz
+_cv/cv.pdf

@@ -1,0 +1,48 @@
+# Compile the LaTeX CV in _cv/ and publish it as files/cv.pdf
+name: Build CV
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "_cv/**"
+      - ".github/workflows/build-cv.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: build-cv
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compile cv.tex with XeLaTeX
+        uses: xu-cheng/latex-action@v3
+        with:
+          working_directory: _cv
+          root_file: cv.tex
+          latexmk_use_xelatex: true
+
+      - name: Copy PDF to files/cv.pdf
+        run: cp _cv/cv.pdf files/cv.pdf
+
+      - name: Commit updated PDF
+        id: commit
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update CV PDF [auto]"
+          file_pattern: files/cv.pdf
+
+      # Pushes made with GITHUB_TOKEN may not start a Pages build on their own
+      - name: Request GitHub Pages rebuild
+        if: steps.commit.outputs.changes_detected == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Pages rebuild request failed; it will rebuild on the next push."
