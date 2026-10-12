@@ -20,6 +20,10 @@ I am actively looking for PhD positions for both 2027 Spring and Fall.
 
 ## Publications
 
+- [Memorization and Malign Generalization in Conditional Diffusion Models with Random Features](https://arxiv.org/abs/2610.11288)  
+  **Gwangho Kim**, Sungyoon Lee  
+  *Under review*  
+
 - [Parallel Tempering Initial Sampling in Inference-Time Reward Alignment](https://arxiv.org/abs/2605.30991)  
   Myeongjun Oh, **Gwangho Kim**, Sungyoon Lee
   *ICML 2026 Workshop on Structured Probabilistic Inference & Generative Modeling (SPIGM)*  
