@@ -33,8 +33,8 @@ jobs:
       - name: Report LaTeX errors
         if: failure()
         run: |
-          grep -n -A3 -E '^!|not found|cannot be found' _cv/cv.log | head -40 |
-            while IFS= read -r line; do echo "::error::$line"; done || true
+          msg=$( (grep -n -A6 '^!' _cv/cv.log || tail -n 30 _cv/cv.log) | head -60)
+          echo "::error title=LaTeX::${msg//$'\n'/%0A}"
 
       - name: Copy PDF to files/cv.pdf
         run: cp _cv/cv.pdf files/cv.pdf
