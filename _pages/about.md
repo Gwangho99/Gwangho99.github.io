@@ -9,9 +9,9 @@ redirect_from:
 
 I am a second-year MS student in Computer Science at Hanyang University, advised by [Sungyoon Lee](https://sites.google.com/view/sungyoon-lee/home). 
 
-My research interests lie in the **theoretical understanding of deep learning and generative models**. Currently, I focus on memorization and generalization in diffusion models, studying how they learn from finite training data and generate novel samples. I am also interested in the implications of these behaviors for data privacy and copyright.
+My research interests lie in the theoretical understanding of deep learning and generative models. Currently, I focus on memorization and generalization in diffusion models, studying how they learn from finite training data and generate novel samples. I am also interested in the implications of these behaviors for data privacy and copyright.
 
-I am actively looking for PhD positions for both 2027 Spring and Fall.
+**I am actively looking for PhD positions for Fall 2027.**
 
 **Email:** [25ghkim@gmail.com](mailto:25ghkim@gmail.com) / [ggh1999@hanyang.ac.kr](mailto:ggh1999@hanyang.ac.kr)
 
