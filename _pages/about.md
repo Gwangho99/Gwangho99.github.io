@@ -15,7 +15,7 @@ My research interests lie in the theoretical understanding of deep learning and 
 
 **Email:** [25ghkim@gmail.com](mailto:25ghkim@gmail.com) / [ggh1999@hanyang.ac.kr](mailto:ggh1999@hanyang.ac.kr)
 
-## Selected publication
+## Selected Publications & Preprints
 
 - [Memorization and Malign Generalization in Conditional Diffusion Models with Random Features](https://arxiv.org/abs/2610.11288)  
   **Gwangho Kim**, Sungyoon Lee  
