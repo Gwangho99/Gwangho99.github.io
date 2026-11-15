@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
-[Download CV (PDF)](/files/cv.pdf)
+{% assign cv_version = site.time | date: "%s" %}
 
-<iframe src="/files/cv.pdf" width="100%" height="900px" style="border: none;"></iframe>
+<a href="{{ '/files/cv.pdf' | relative_url }}?v={{ cv_version }}">Download CV (PDF)</a>
+
+<iframe src="{{ '/files/cv.pdf' | relative_url }}?v={{ cv_version }}" width="100%" height="900px" style="border: none;"></iframe>
